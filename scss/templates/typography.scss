@@ -14,37 +14,28 @@ p {
 }
 
 // Headers
-.xs-pop-header {
-  font-family: $text-family-body;
-  font-size: 12px;
-  color: $color-cobalt;
-  line-height: 15px;
-  font-weight: 400;
-  letter-spacing: 4.5px;
-  text-transform: uppercase;
-}
 
 .small-pop-header {
   font-family: $text-family-body;
-  font-size: 16px;
-  color: $color-cobalt;
-  line-height: 25px;
-  font-weight: 400;
-  letter-spacing: 4.5px;
+  font-size: 15px;
+  color: $color-pink;
+  line-height: 18px;
+  font-weight: $text-weight-bold;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .page-header {
   font-family: $text-family-body;
-  font-size: 60px;
+  font-size: 51px;
   color: $color-cobalt;
-  font-weight: 700;
+  font-weight: $text-weight-black;
   line-height: 1.2em;
 }
 
 .section-header {
   font-family: $text-family-body;
-  font-size: 50px;
+  font-size: 40px;
   color: $color-cobalt;
   font-weight: 700;
   line-height: 1.2em;
