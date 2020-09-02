@@ -44,6 +44,12 @@
   }
 }
 
+// Width 100
+
+.width-100 {
+  width: 100%;
+}
+
 // Mobile
 
 @media screen and (max-width: 768px) {
@@ -51,4 +57,7 @@
     max-width: 100% !important;
   }
 
+  .width-100-mobile {
+    width: 100%;
+  }
 }

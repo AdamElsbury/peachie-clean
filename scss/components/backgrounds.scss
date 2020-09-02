@@ -49,3 +49,43 @@
     right: 0;
   }
 }
+
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .index-hero-bg {
+    background-image: url(../assets/index-hero-bg-mobile.svg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .wavy-pink-bg {
+    background-image: url(../assets/wavy-section-bg-mobile.svg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .carousel-header-bg {
+    background-image: url(../assets/carousel-header-mobile-bg.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    padding-bottom: 155px;
+  }
+
+  .circle-right-bg {
+    background-image: url(../assets/circle-right-bg.svg);
+    background-position: right -30px top 1px;
+    background-repeat: no-repeat;
+    background-size: 85%;
+  }
+
+  .circle-left-green-bg {
+    background-image: url(../assets/left-circle-green-bg.svg);
+    background-position: bottom -290px left -100px;
+    background-repeat: no-repeat;
+    background-size: 80% 99%;
+  }
+}

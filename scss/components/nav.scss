@@ -259,6 +259,8 @@ button {
 @media screen and (max-width: 768px) {
   .btn-mobile-full-width {
     width: 100%;
+    display: block;
+    text-align: center;
   }
 
   .mobile-carousel-control-container {

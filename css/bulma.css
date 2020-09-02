@@ -1780,9 +1780,6 @@ fieldset[disabled] .button {
   margin-right: 0.5rem;
 }
 
-.buttons:last-child {
-  margin-bottom: -0.5rem;
-}
 
 .buttons:not(:last-child) {
   margin-bottom: 1rem;

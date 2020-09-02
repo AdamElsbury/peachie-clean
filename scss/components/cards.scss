@@ -58,3 +58,15 @@
   background-color: $color-white;
   padding: 15px 25px;
 }
+
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .cta-card {
+    background-image:  none;
+  }
+
+  .carousel-controls {
+    padding-left: 0;
+  }
+}
