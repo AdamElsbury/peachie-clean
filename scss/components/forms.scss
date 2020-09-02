@@ -10,25 +10,27 @@ input[type=checkbox] {
   margin: 0;
 
   input[type=text] {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    background-color: $color-white;
+    background-color: $color-peach;
     font-family: $text-family-body;
     font-size: 12px;
     font-weight: 300;
     color: $color-black;
     padding: 17px 25px 17px 25px;
     width: 100%;
+    border-radius: 26px;
+    border: none;
   }
 
   textarea {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    background-color: $color-white;
+    background-color: $color-peach;
     font-family: $text-family-body;
     font-size: 12px;
     font-weight: 300;
     color: $color-black;
     padding: 15px 25px 15px 25px;
     width: 100%;
+    border-radius: 26px;
+    border: none;
   }
 
   .select-img-position {

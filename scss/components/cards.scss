@@ -59,6 +59,14 @@
   padding: 15px 25px;
 }
 
+// Pink cards
+
+.pink-card {
+  background-color: $color-pink;
+  border-radius: 7px;
+  padding: 66px;
+}
+
 // Mobile
 
 @media screen and (max-width: 768px) {
@@ -68,5 +76,9 @@
 
   .carousel-controls {
     padding-left: 0;
+  }
+
+  .pink-card {
+    padding: 25px;
   }
 }

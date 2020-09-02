@@ -35,6 +35,13 @@
   background-size: 40% 99%;
 }
 
+.wavy-hero-bg-small {
+  background-image: url(../assets/wavy-hero-bg.svg);
+  background-position: left 0 top -200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .email-subscribe-bg {
   background-color: $color-cobalt;
 
@@ -87,5 +94,12 @@
     background-position: bottom -290px left -100px;
     background-repeat: no-repeat;
     background-size: 80% 99%;
+  }
+
+  .wavy-hero-bg-small {
+    background-image: url(../assets/wavy-hero-bg-small-mobile.svg);
+    background-position: left 0 top 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 }

@@ -628,23 +628,25 @@ input[type=checkbox] {
   width: 100%;
   margin: 0; }
   .std-form input[type=text] {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    background-color: #FFFFFF;
+    background-color: #FFF7F0;
     font-family: "Raleway", sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #000000;
     padding: 17px 25px 17px 25px;
-    width: 100%; }
+    width: 100%;
+    border-radius: 26px;
+    border: none; }
   .std-form textarea {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    background-color: #FFFFFF;
+    background-color: #FFF7F0;
     font-family: "Raleway", sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #000000;
     padding: 15px 25px 15px 25px;
-    width: 100%; }
+    width: 100%;
+    border-radius: 26px;
+    border: none; }
   .std-form .select-img-position {
     position: relative; }
     .std-form .select-img-position img {
@@ -761,12 +763,20 @@ input[type=checkbox] {
   background-color: #FFFFFF;
   padding: 15px 25px; }
 
+.pink-card {
+  background-color: #F69C93;
+  border-radius: 7px;
+  padding: 66px; }
+
 @media screen and (max-width: 768px) {
   .cta-card {
     background-image: none; }
 
   .carousel-controls {
-    padding-left: 0; } }
+    padding-left: 0; }
+
+  .pink-card {
+    padding: 25px; } }
 .is-small-container {
   max-width: 1152px !important; }
 
@@ -835,6 +845,12 @@ input[type=checkbox] {
   background-repeat: no-repeat;
   background-size: 40% 99%; }
 
+.wavy-hero-bg-small {
+  background-image: url(../assets/wavy-hero-bg.svg);
+  background-position: left 0 top -200px;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
 .email-subscribe-bg {
   background-color: #1C1C1C; }
   .email-subscribe-bg:after {
@@ -877,6 +893,12 @@ input[type=checkbox] {
     background-image: url(../assets/left-circle-green-bg.svg);
     background-position: bottom -290px left -100px;
     background-repeat: no-repeat;
-    background-size: 80% 99%; } }
+    background-size: 80% 99%; }
+
+  .wavy-hero-bg-small {
+    background-image: url(../assets/wavy-hero-bg-small-mobile.svg);
+    background-position: left 0 top 0;
+    background-repeat: no-repeat;
+    background-size: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
