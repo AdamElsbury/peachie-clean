@@ -13,7 +13,7 @@
   background-image: url(../assets/cta-card-bg.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-color: $color-green;
 
   &:after {
@@ -25,5 +25,26 @@
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+}
+
+// Carousel pink controller outline
+
+.carousel-controls {
+  padding-left: 50%;
+}
+
+.carousel-controller {
+  border: 1px solid $color-pink;
+  padding: 30px;
+  cursor: pointer;
+  transition: all 300ms ease;
+
+  &:hover {
+    background-color: $color-pink;
+
+    path {
+      fill: $color-white;
+    }
   }
 }

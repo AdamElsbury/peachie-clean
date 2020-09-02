@@ -109,6 +109,9 @@ p {
 .text-black {
   color: #000000; }
 
+.text-pink {
+  color: #F69C93 !important; }
+
 .opacity-full {
   opacity: 1; }
 
@@ -206,6 +209,9 @@ p {
 
 .pl-150-px {
   padding-left: 150px; }
+
+.mt-10 {
+  margin-top: 5rem !important; }
 
 .relative {
   position: relative; }
@@ -680,6 +686,17 @@ input[type=checkbox] {
 .box-shadow {
   box-shadow: 8px 8px 32px 0px #e8eff7; }
 
+.hr-right h4 {
+  display: inline-block; }
+.hr-right span {
+  margin-left: 15px;
+  width: 80px;
+  height: 1px;
+  background-color: #F69C93;
+  display: inline-block;
+  line-height: 2;
+  animation: shake 1.75s infinite; }
+
 .index-service-card {
   border-radius: 7px;
   border: 1px solid #E9E9E9;
@@ -690,7 +707,7 @@ input[type=checkbox] {
   background-image: url(../assets/cta-card-bg.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-color: #107E7D; }
   .cta-card:after {
     content: "";
@@ -701,6 +718,19 @@ input[type=checkbox] {
     position: absolute;
     bottom: 0;
     right: 0; }
+
+.carousel-controls {
+  padding-left: 50%; }
+
+.carousel-controller {
+  border: 1px solid #F69C93;
+  padding: 30px;
+  cursor: pointer;
+  transition: all 300ms ease; }
+  .carousel-controller:hover {
+    background-color: #F69C93; }
+    .carousel-controller:hover path {
+      fill: #FFFFFF; }
 
 .is-small-container {
   max-width: 1152px !important; }
@@ -738,12 +768,30 @@ input[type=checkbox] {
   background-image: url(../assets/hero-bg.svg);
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: auto; }
+  background-size: 70%; }
 
 .wavy-pink-bg {
   background-image: url(../assets/wavy-section-bg.svg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.carousel-header-bg {
+  background-image: url(../assets/carousel-header-bg.jpg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 70%; }
+
+.circle-right-bg {
+  background-image: url(../assets/circle-right-bg.svg);
+  background-position: right -50px top 1px;
+  background-repeat: no-repeat;
+  background-size: auto; }
+
+.circle-left-green-bg {
+  background-image: url(../assets/left-circle-green-bg.svg);
+  background-position: left -70px top 1px;
+  background-repeat: no-repeat;
+  background-size: 40%; }
 
 /*# sourceMappingURL=main.css.map */
