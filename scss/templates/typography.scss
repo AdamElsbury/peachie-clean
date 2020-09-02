@@ -43,25 +43,25 @@ p {
 
 .cta-header {
   font-family: $text-family-body;
-  font-size: 35px;
+  font-size: 30px;
   color: $color-cobalt;
-  font-weight: 700;
+  font-weight: $text-weight-extra-bold;
   line-height: 1.2em;
 }
 
 
 .sub-section-header {
   font-family: $text-family-body;
-  font-size: 30px;
+  font-size: 20px;
   color: $color-cobalt;
-  font-weight: 700;
+  font-weight: $text-weight-semi-bold;
   line-height: 1.2em;
 }
 
 
 .benefit-header {
   font-family: $text-family-body;
-  font-size: 16px;
+  font-size: 20px;
   color: $color-white;
   font-weight: 400;
   line-height: 1.2em;

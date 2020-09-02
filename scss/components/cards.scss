@@ -6,3 +6,24 @@
   padding: 23px;
   height: 100%;
 }
+
+// CTA Green card
+
+.cta-card {
+  background-image: url(../assets/cta-card-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-green;
+
+  &:after {
+    content: "";
+    width: 50%;
+    float: right;
+    height: 5px;
+    background-color: $color-pink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

@@ -81,21 +81,21 @@ p {
 
 .cta-header {
   font-family: "Raleway", sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   color: #1C1C1C;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.2em; }
 
 .sub-section-header {
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: #1C1C1C;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2em; }
 
 .benefit-header {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #FFFFFF;
   font-weight: 400;
   line-height: 1.2em; }
@@ -686,8 +686,30 @@ input[type=checkbox] {
   padding: 23px;
   height: 100%; }
 
+.cta-card {
+  background-image: url(../assets/cta-card-bg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #107E7D; }
+  .cta-card:after {
+    content: "";
+    width: 50%;
+    float: right;
+    height: 5px;
+    background-color: #F69C93;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+
 .is-small-container {
   max-width: 1152px !important; }
+
+.is-xs-container {
+  max-width: 950px !important; }
+
+.is-800-container {
+  max-width: 800px !important; }
 
 .is-500-container {
   max-width: 500px !important; }
@@ -710,7 +732,7 @@ input[type=checkbox] {
     display: none; }
 
 @media screen and (max-width: 768px) {
-  .is-small-container {
+  .is-small-container, .is-xs-container, .is-800-container {
     max-width: 100% !important; } }
 .index-hero-bg {
   background-image: url(../assets/hero-bg.svg);
