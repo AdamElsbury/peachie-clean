@@ -30,7 +30,22 @@
 
 .circle-left-green-bg {
   background-image: url(../assets/left-circle-green-bg.svg);
-  background-position: left -70px top 1px;
+  background-position: left -120px top 1px;
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 40% 99%;
+}
+
+.email-subscribe-bg {
+  background-color: $color-cobalt;
+
+  &:after {
+    content: "";
+    width: 50%;
+    float: right;
+    height: 5px;
+    background-color: $color-pink;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 }

@@ -136,7 +136,7 @@ button {
   font-size: 15px;
   font-weight: $text-weight-semi-bold;
   text-decoration: none;
-  color: $color-green;
+  color: $color-cobalt;
   transition: all .3s ease-in-out;
 
   img, svg {
@@ -149,7 +149,6 @@ button {
 
   &:hover {
     text-decoration: underline;
-    color: $color-green;
 
     img {
       margin-left: 25px;

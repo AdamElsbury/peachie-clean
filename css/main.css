@@ -210,8 +210,14 @@ p {
 .pl-150-px {
   padding-left: 150px; }
 
+.pt-10 {
+  padding-top: 10rem !important; }
+
+.pt-15 {
+  padding-top: 15rem !important; }
+
 .mt-10 {
-  margin-top: 5rem !important; }
+  margin-top: 9rem !important; }
 
 .relative {
   position: relative; }
@@ -516,7 +522,7 @@ button {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  color: #107E7D;
+  color: #1C1C1C;
   transition: all .3s ease-in-out; }
   .btn-text-only img, .btn-text-only svg {
     height: auto;
@@ -525,8 +531,7 @@ button {
     margin: 3px 0 0 10px;
     transition: all 200ms ease-out; }
   .btn-text-only:hover {
-    text-decoration: underline;
-    color: #107E7D; }
+    text-decoration: underline; }
     .btn-text-only:hover img {
       margin-left: 25px; }
 
@@ -612,7 +617,7 @@ input[type=checkbox] {
     font-size: 12px;
     font-weight: 300;
     color: #000000;
-    padding: 15px 25px 15px 25px;
+    padding: 17px 25px 17px 25px;
     width: 100%; }
   .std-form textarea {
     border: 1px solid rgba(0, 0, 0, 0.8);
@@ -732,6 +737,13 @@ input[type=checkbox] {
     .carousel-controller:hover path {
       fill: #FFFFFF; }
 
+.numbered-div {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  padding: 15px 25px; }
+
 .is-small-container {
   max-width: 1152px !important; }
 
@@ -790,8 +802,20 @@ input[type=checkbox] {
 
 .circle-left-green-bg {
   background-image: url(../assets/left-circle-green-bg.svg);
-  background-position: left -70px top 1px;
+  background-position: left -120px top 1px;
   background-repeat: no-repeat;
-  background-size: 40%; }
+  background-size: 40% 99%; }
+
+.email-subscribe-bg {
+  background-color: #1C1C1C; }
+  .email-subscribe-bg:after {
+    content: "";
+    width: 50%;
+    float: right;
+    height: 5px;
+    background-color: #F69C93;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
 
 /*# sourceMappingURL=main.css.map */
