@@ -68,6 +68,14 @@
   max-width: 55px;
 }
 
+// Mobile img in header
+
+.smartphone-img {
+  height: auto !important;
+  width: auto !important;
+  max-height: 3rem !important;
+}
+
 // Tablet
 
 @media (min-width: 768px) and (max-width: 1024px) {
