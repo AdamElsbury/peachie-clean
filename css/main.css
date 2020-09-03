@@ -142,10 +142,16 @@ p {
     max-width: 100%; }
 
   .section-header {
-    font-size: 40px; }
+    font-size: 30px; }
 
   .sub-section-header {
-    font-size: 30px; } }
+    font-size: 16px; }
+
+  .page-header {
+    font-size: 40px; }
+
+  .small-pop-header {
+    font-size: 12px; } }
 @media screen and (max-width: 768px) {
   .benefit-header {
     font-size: 13px; }
@@ -241,6 +247,9 @@ p {
 @media (min-width: 768px) and (max-width: 1024px) {
   .mt-1-tablet-only {
     margin-top: 1rem; }
+
+  .margin-remove-tablet {
+    margin: 0 !important; }
 
   .pl-150-px {
     padding-left: 25px; }
@@ -768,6 +777,13 @@ input[type=checkbox] {
   border-radius: 7px;
   padding: 66px; }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cta-card {
+    background-size: cover;
+    background-position: top left; }
+
+  .carousel-controls {
+    padding-left: 30%; } }
 @media screen and (max-width: 768px) {
   .cta-card {
     background-image: none; }

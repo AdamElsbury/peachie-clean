@@ -67,6 +67,19 @@
   padding: 66px;
 }
 
+// Tablet
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cta-card {
+    background-size: cover;
+    background-position: top left;
+  }
+
+  .carousel-controls {
+    padding-left: 30%;
+  }
+}
+
 // Mobile
 
 @media screen and (max-width: 768px) {
