@@ -783,7 +783,10 @@ input[type=checkbox] {
     background-position: top left; }
 
   .carousel-controls {
-    padding-left: 30%; } }
+    padding-left: 30%; }
+
+  .pink-card {
+    padding: 46px; } }
 @media screen and (max-width: 768px) {
   .cta-card {
     background-image: none; }
@@ -879,6 +882,9 @@ input[type=checkbox] {
     bottom: 0;
     right: 0; }
 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .wavy-hero-bg-small {
+    background-position: left 0 top 0; } }
 @media screen and (max-width: 768px) {
   .index-hero-bg {
     background-image: url(../assets/index-hero-bg-mobile.svg);
