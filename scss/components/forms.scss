@@ -43,13 +43,14 @@ input[type=checkbox] {
       height: 12px;
       width: 12px;
       right: 25px;
-      top: calc(12px + 0.5rem);
+      top: calc(12px + 0.3rem);
     }
   }
 
   select {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid #E9E9E9;
     background-color: $color-white;
+    border-radius: 7px;
     font-family: $text-family-body;
     font-size: 12px;
     font-weight: 300;

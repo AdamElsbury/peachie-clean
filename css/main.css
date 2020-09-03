@@ -49,7 +49,7 @@
   .columns.is-reversed-mobile {
     flex-direction: column-reverse;
     display: flex; } }
-p {
+p, .p {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   color: #1C1C1C;
@@ -437,12 +437,19 @@ p {
   width: auto !important;
   max-height: 3rem !important; }
 
+.blog-img {
+  border-radius: 7px 7px 0 0;
+  display: block; }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .logo {
     max-width: 85px; } }
 @media screen and (max-width: 768px) {
   .logo {
     max-width: 85px; } }
+.navbar {
+  background-color: transparent !important; }
+
 .navbar-link:not(.is-arrowless)::after {
   border-color: #1C1C1C !important; }
 
@@ -665,10 +672,11 @@ input[type=checkbox] {
       height: 12px;
       width: 12px;
       right: 25px;
-      top: calc(12px + 0.5rem); }
+      top: calc(12px + 0.3rem); }
   .std-form select {
-    border: 1px solid rgba(0, 0, 0, 0.8);
+    border: 1px solid #E9E9E9;
     background-color: #FFFFFF;
+    border-radius: 7px;
     font-family: "Raleway", sans-serif;
     font-size: 12px;
     font-weight: 300;
@@ -776,6 +784,30 @@ input[type=checkbox] {
   background-color: #F69C93;
   border-radius: 7px;
   padding: 66px; }
+
+.blog-description {
+  background-color: #FFF7F0;
+  padding: 40px 25px;
+  border-radius: 0 0 7px 7px;
+  transition: background-color 200ms ease; }
+  .blog-description:hover {
+    background-color: #F69C93; }
+    .blog-description:hover h4, .blog-description:hover span {
+      color: white; }
+
+.blog-sub-description {
+  background-color: #FFF7F0;
+  padding: 25px 25px;
+  border-radius: 7px;
+  transition: background-color 200ms ease; }
+  .blog-sub-description h4 {
+    font-size: 16px; }
+  .blog-sub-description span {
+    font-size: 13px; }
+  .blog-sub-description:hover {
+    background-color: #F69C93; }
+    .blog-sub-description:hover h4, .blog-sub-description:hover span {
+      color: white; }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .cta-card {

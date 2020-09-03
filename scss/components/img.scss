@@ -76,6 +76,13 @@
   max-height: 3rem !important;
 }
 
+// Blog image
+
+.blog-img {
+  border-radius: 7px 7px 0 0;
+  display: block;
+}
+
 // Tablet
 
 @media (min-width: 768px) and (max-width: 1024px) {
