@@ -309,7 +309,7 @@ p, .p {
     margin-top: 1rem; }
 
   .mt-2-mobile-only {
-    margin-top: 2rem; }
+    margin-top: 2rem !important; }
 
   .mt-3-mobile-only {
     margin-top: 3rem !important; }
@@ -322,6 +322,9 @@ p, .p {
 
   .pt-2-mobile {
     padding-top: 2rem !important; }
+
+  .pt-3-mobile {
+    padding-top: 3rem !important; }
 
   .is-padding-small-mobile {
     padding: 15px 1rem !important; }
@@ -449,7 +452,13 @@ p, .p {
     max-width: 85px; } }
 @media screen and (max-width: 768px) {
   .logo {
-    max-width: 85px; } }
+    max-width: 85px; }
+
+  .careers-header-img {
+    max-width: 66%; }
+
+  .careers-section-svg {
+    max-width: 59px; } }
 .navbar {
   background-color: transparent !important; }
 

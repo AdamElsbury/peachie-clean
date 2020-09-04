@@ -177,7 +177,7 @@
   }
 
   .mt-2-mobile-only {
-    margin-top: 2rem;
+    margin-top: 2rem !important;
   }
 
   .mt-3-mobile-only {
@@ -195,6 +195,10 @@
 
   .pt-2-mobile {
     padding-top: 2rem !important;
+  }
+
+  .pt-3-mobile {
+    padding-top: 3rem !important;
   }
 
   .is-padding-small-mobile {
