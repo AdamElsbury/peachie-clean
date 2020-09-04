@@ -170,14 +170,14 @@ button {
   }
 }
 
-.btn-bronze-no-pad {
-  border: 3px solid $color-green;
-  background-color: $color-green;
-  color: #FFF;
+.btn-pink-secondary {
+  border: 3px solid $color-pink;
+  background-color: transparent;
+  color: $color-pink;
 
   &:hover {
-    background-color: transparent;
-    color: $color-green;
+    background-color: $color-pink;
+    color: $color-white;
   }
 }
 

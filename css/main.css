@@ -163,7 +163,7 @@ p, .p {
     font-size: 35px; }
 
   .sub-section-header {
-    font-size: 18px; }
+    font-size: 17px; }
 
   .p-width-mobile-reset {
     max-width: 100%; }
@@ -232,8 +232,8 @@ p, .p {
 .mt-10 {
   margin-top: 9rem !important; }
 
-.relative {
-  position: relative; }
+.mr-auto {
+  margin-right: auto !important; }
 
 .padding-remove {
   padding: 0 !important; }
@@ -574,13 +574,13 @@ button {
     background-color: transparent;
     color: #F69C93; }
 
-.btn-bronze-no-pad {
-  border: 3px solid #107E7D;
-  background-color: #107E7D;
-  color: #FFF; }
-  .btn-bronze-no-pad:hover {
-    background-color: transparent;
-    color: #107E7D; }
+.btn-pink-secondary {
+  border: 3px solid #F69C93;
+  background-color: transparent;
+  color: #F69C93; }
+  .btn-pink-secondary:hover {
+    background-color: #F69C93;
+    color: #FFFFFF; }
 
 .btn-white-secondary {
   border: 3px solid #FFFFFF;
@@ -688,13 +688,18 @@ input[type=checkbox] {
     cursor: pointer; }
 
 .search-input {
-  border: 0.1px solid rgba(0, 0, 0, 0.2);
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  color: #000000;
-  padding: 10px 40px 10px 20px;
-  width: 300px;
-  position: relative; }
+  border: 1px solid #E9E9E9 !important;
+  border-radius: 7px !important;
+  background-color: #FFFFFF !important;
+  font-size: 12px !important;
+  font-family: "Raleway", sans-serif !important;
+  font-weight: 300 !important;
+  color: #000000 !important;
+  padding: 15px 25px 15px 25px !important;
+  width: 100% !important;
+  position: relative !important;
+  appearance: none !important;
+  cursor: text !important; }
 
 .search-input-icon {
   position: absolute;
@@ -827,7 +832,10 @@ input[type=checkbox] {
     padding-left: 0; }
 
   .pink-card {
-    padding: 25px; } }
+    padding: 25px; }
+
+  .blog-description {
+    padding: 13px; } }
 .is-small-container {
   max-width: 1152px !important; }
 

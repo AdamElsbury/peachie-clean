@@ -66,13 +66,18 @@ input[type=checkbox] {
 // Search input
 
 .search-input {
-  border: 0.1px solid rgba(0, 0, 0, 0.2);
-  font-family: $text-family-body;
-  font-weight: 300;
-  color: $color-black;
-  padding: 10px 40px 10px 20px;
-  width: 300px;
-  position: relative;
+  border: 1px solid #E9E9E9 !important;
+  border-radius: 7px !important;
+  background-color: $color-white !important;
+  font-size: 12px !important;
+  font-family: $text-family-body !important;
+  font-weight: 300 !important;
+  color: $color-black !important;
+  padding: 15px 25px 15px 25px !important;
+  width: 100% !important;
+  position: relative !important;
+  appearance: none !important;
+  cursor: text !important;
 }
 
 .search-input-icon {
