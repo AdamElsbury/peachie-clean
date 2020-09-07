@@ -1,5 +1,9 @@
 // General
 
+.img-90 {
+  max-width: 90%;
+}
+
 .index-bg-geo {
   position: absolute;
   top: 0;
@@ -116,6 +120,11 @@
   .careers-section-svg {
     max-width: 59px;
   }
+
+  .img-90 {
+    max-width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 450px) {

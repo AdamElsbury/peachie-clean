@@ -392,6 +392,9 @@ p, .p {
   display: block;
   padding: 5px 0 5px 0; }
 
+.img-90 {
+  max-width: 90%; }
+
 .index-bg-geo {
   position: absolute;
   top: 0;
@@ -461,7 +464,10 @@ p, .p {
     max-width: 66%; }
 
   .careers-section-svg {
-    max-width: 59px; } }
+    max-width: 59px; }
+
+  .img-90 {
+    max-width: 100%; } }
 .navbar {
   background-color: transparent !important; }
 
@@ -758,6 +764,9 @@ input[type=checkbox] {
   line-height: 2;
   animation: shake 1.75s infinite; }
 
+.white-border-img {
+  border: 15px solid #FFFFFF; }
+
 .index-service-card {
   border-radius: 7px;
   border: 1px solid #E9E9E9;
@@ -833,6 +842,11 @@ input[type=checkbox] {
     background-color: #F69C93; }
     .blog-sub-description:hover h4, .blog-sub-description:hover span {
       color: white; }
+
+.service-list-card {
+  background-color: white;
+  border-radius: 7px;
+  padding: 22px 31px; }
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .cta-card {
