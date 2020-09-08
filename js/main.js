@@ -33,16 +33,7 @@ function showHideDropdown() {
   }
 }
 
-function closeMenu() {
-  document.getElementById("menu").style.opacity = "0";
-  document.getElementById("menu").style.zIndex = "-1";
-  document.getElementById("menu").style.top = "-2000px";
-  document.getElementById("menu").style.display = "absolute";
-}
 
-function closeNotification() {
-  document.getElementById("notification").style.display = "none";
-}
 
 function openCloseFilterAccordionContent() {
   var x = document.getElementById("filter-accordion-hidden");
@@ -68,24 +59,9 @@ function openCloseFilterAccordionContentMobile() {
   }
 }
 
-
-function openFilterMenu() {
-  document.getElementById("filter-menu").style.opacity = "1";
-  document.getElementById("filter-menu").style.zIndex = "2";
-  document.getElementById("filter-menu").style.top = "0";
-  document.getElementById("filter-menu").style.position = "sticky";
-}
-
-function closeFilterMenu() {
-  document.getElementById("filter-menu").style.opacity = "0";
-  document.getElementById("filter-menu").style.zIndex = "-1";
-  document.getElementById("filter-menu").style.top = "-2000px";
-  document.getElementById("filter-menu").style.position = "absolute";
-}
-
 function openCloseAccordionContent() {
-  var x = document.getElementById("accordion-hidden");
-  var y = document.getElementById("accordion-chevron");
+  var x = document.getElementById("dropdown-faq-content");
+  var y = document.getElementById("dropdown-chevron");
   if (x.style.display === "none") {
     x.style.display = "block";
     y.style.transform = "rotate(180deg)";

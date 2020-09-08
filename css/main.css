@@ -306,7 +306,7 @@ p, .p {
     margin-left: 0 !important; }
 
   .mt-1-mobile-only {
-    margin-top: 1rem; }
+    margin-top: 1rem !important; }
 
   .mt-2-mobile-only {
     margin-top: 2rem !important; }
@@ -730,6 +730,28 @@ input[type=checkbox] {
   top: 13px;
   right: 20px; }
 
+.faq-search-container {
+  position: relative; }
+  .faq-search-container img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    height: 12px;
+    width: 12px;
+    left: 25px;
+    top: calc(12px + 0.3rem); }
+  .faq-search-container input[type=text] {
+    background-color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #000000;
+    padding: 17px 25px 17px 50px;
+    width: 100%;
+    border-radius: 26px;
+    border: none;
+    height: 48px; }
+
 .subscribe-input {
   border: 0.1px solid rgba(0, 0, 0, 0.2);
   background-color: #FFFFFF;
@@ -848,6 +870,17 @@ input[type=checkbox] {
   border-radius: 7px;
   padding: 22px 31px; }
 
+.faq-category-card {
+  background-color: white;
+  border-radius: 7px;
+  padding: 22px 31px;
+  transition: all 200ms ease; }
+  .faq-category-card:hover {
+    opacity: 0.8;
+    margin-top: 30px; }
+  .faq-category-card .is-active {
+    border: 2px solid #F69C93; }
+
 @media (min-width: 769px) and (max-width: 1024px) {
   .cta-card {
     background-size: cover;
@@ -901,6 +934,26 @@ input[type=checkbox] {
 
 .width-100 {
   width: 100%; }
+
+.dropdown-faq-container {
+  border-bottom: 2px solid #1C1C1C;
+  padding: 10px 0;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+     supported by Chrome, Edge, Opera and Firefox */ }
+  .dropdown-faq-container .dropdown-faq-content {
+    display: none; }
 
 @media screen and (max-width: 768px) {
   .is-small-container, .is-xs-container, .is-800-container {
