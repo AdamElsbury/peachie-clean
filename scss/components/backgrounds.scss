@@ -63,6 +63,14 @@
   .wavy-hero-bg-small {
     background-position: left 0 top 0;
   }
+
+  .carousel-header-bg {
+    background-image: url(../assets/carousel-header-mobile-bg.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    padding-bottom: 108px;
+  }
 }
 
 // Mobile
